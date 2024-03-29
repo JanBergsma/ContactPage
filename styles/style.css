@@ -1,0 +1,24 @@
+/* font-family: "Be Vietnam Pro", sans-serif; */
+
+/* Variable */
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #111729;
+  --label-color: #cdd5e0;
+  --place-holder-color: #cdd5e0;
+  --button-color: #4036a9;
+  --secondary-background-color: #fff;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: url("../img/bg-image.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

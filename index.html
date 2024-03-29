@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="img/Cute-Cat-icon.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img class="logo" src="/img/contact-form-icon.svg" alt="company logo" />
+        <div class="call-to-action">
+          <h1 class="call-to-action__title">
+            Interested in our business pricing?
+          </h1>
+          <h2 class="call-to-action__subtitle">
+            Fill out the form to view details and we’ll contact you as soon as
+            possible.
+          </h2>
+        </div>
+        <form action="">
+          <fieldset>
+            <div class="input">
+              <label class="input__label" for="name">name</label>
+              <input
+                class="input__input"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Ethan Johnson"
+              />
+            </div>
+            <div class="input">
+              <label class="input__label" for="email">Company Email</label>
+              <input
+                class="input__input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="ethan@johnson.com"
+              />
+            </div>
+          </fieldset>
+          <fieldset>
+            <div class="input">
+              <label class="input__label" for="size">Company Size</label>
+              <select class="input__select" name="size" id="size">
+                <option value="1-50">1-50 employees</option>
+                <option value="50-100">50-100 employees</option>
+                <option value="100-1000">100-1000 employees</option>
+                <option value="1000-5000">1000-5000 employees</option>
+                <option value="5000...">5000 and more employees</option>
+              </select>
+            </div>
+            <div class="input">
+              <label class="input__label" for="subject">Subject</label>
+              <select class="input__select" name="subject" id="subject">
+                <option value="blp">Building Landing pages</option>
+                <option value="bla">Building Web Apps</option>
+                <option value="bos">Building Online Stores</option>
+                <option value="seo">Seo Optimization</option>
+              </select>
+            </div>
+          </fieldset>
+          <fieldset>
+            <div class="input">
+              <label class="input__label" for="message">Message</label>
+              <textarea class="input__textarea" name="message" id="message">
+                50-100 employees
+              </textarea>
+            </div>
+          </fieldset>
+          <fieldset>
+            <div class="input">
+              <input
+                class="input__button"
+                type="button"
+                value="Contact Sales"
+              />
+            </div>
+          </fieldset>
+        </form>
+      </header>
+    </main>
+  </body>
+</html>
