@@ -1,16 +1,9 @@
 /*
   1. Use a more-intuitive box-sizing model.
-*/
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/*
   2. Remove default margin
 */
 * {
+  box-sizing: border-box;
   margin: 0;
 }
 
@@ -27,11 +20,7 @@ body {
 /*
   5. Improve media defaults
 */
-img,
-picture,
-video,
-canvas,
-svg {
+img {
   display: block;
   max-width: 100%;
 }
@@ -57,4 +46,14 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+/*
+  7. Fieldset 
+*/
+fieldset {
+  margin: 0;
+  border: none;
+  padding: 0;
+  min-width: 0;
 }

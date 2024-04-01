@@ -23,10 +23,10 @@
       <header>
         <img class="logo" src="/img/contact-form-icon.svg" alt="company logo" />
         <div class="call-to-action">
-          <h1 class="call-to-action__title">
+          <h1 class="call-to-action-title">
             Interested in our business pricing?
           </h1>
-          <h2 class="call-to-action__subtitle">
+          <h2 class="call-to-action-subtitle">
             Fill out the form to view details and we’ll contact you as soon as
             possible.
           </h2>
@@ -34,9 +34,9 @@
         <form action="">
           <fieldset>
             <div class="input">
-              <label class="input__label" for="name">name</label>
+              <label class="input-label" for="name">name</label>
               <input
-                class="input__input"
+                class="input-input"
                 type="text"
                 name="name"
                 id="name"
@@ -44,9 +44,9 @@
               />
             </div>
             <div class="input">
-              <label class="input__label" for="email">Company Email</label>
+              <label class="input-label" for="email">Company Email</label>
               <input
-                class="input__input"
+                class="input-input"
                 type="email"
                 name="email"
                 id="email"
@@ -56,8 +56,8 @@
           </fieldset>
           <fieldset>
             <div class="input">
-              <label class="input__label" for="size">Company Size</label>
-              <select class="input__select" name="size" id="size">
+              <label class="input-label" for="size">Company Size</label>
+              <select class="input-select" name="size" id="size">
                 <option value="1-50">1-50 employees</option>
                 <option value="50-100">50-100 employees</option>
                 <option value="100-1000">100-1000 employees</option>
@@ -66,8 +66,8 @@
               </select>
             </div>
             <div class="input">
-              <label class="input__label" for="subject">Subject</label>
-              <select class="input__select" name="subject" id="subject">
+              <label class="input-label" for="subject">Subject</label>
+              <select class="input-select" name="subject" id="subject">
                 <option value="blp">Building Landing pages</option>
                 <option value="bla">Building Web Apps</option>
                 <option value="bos">Building Online Stores</option>
@@ -77,19 +77,20 @@
           </fieldset>
           <fieldset>
             <div class="input">
-              <label class="input__label" for="message">Message</label>
-              <textarea class="input__textarea" name="message" id="message">
-                50-100 employees
-              </textarea>
+              <label class="input-label" for="message">Message</label>
+              <textarea
+                class="input-textarea"
+                name="message"
+                id="message"
+                rows="5"
+                cols="40"
+                placeholder="50-100 employees"
+              ></textarea>
             </div>
           </fieldset>
           <fieldset>
             <div class="input">
-              <input
-                class="input__button"
-                type="button"
-                value="Contact Sales"
-              />
+              <input class="input-button" type="button" value="Contact Sales" />
             </div>
           </fieldset>
         </form>
